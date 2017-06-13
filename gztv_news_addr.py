@@ -4,7 +4,6 @@ Input: no input
 Output: urls of news videos
 '''
 
-
 import requests
 import json
 import urllib
