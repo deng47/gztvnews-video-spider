@@ -1,13 +1,7 @@
 '''
-tags=soup.select('a')
-
-for tag in tags:
-    if len(dic)+1 > limit:
-        break
-    link = tag.get('href')[4:-2]
-    if link.startswith('www.bilibili') and re.search(r'[^\x00-\xff]',tag.text)!=None:
-        link=link[:link.find('?from')]
-        dic[tag.text[10:-8]+' http://'+link] = []
+This program crawls news.gztv.com and searches for streaming video addresses
+Input: no input
+Output: urls of news videos
 '''
 
 
